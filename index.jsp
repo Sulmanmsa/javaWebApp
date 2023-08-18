@@ -7,6 +7,6 @@
 </head>
 <body>
     <h1>Welcome to My Simple Web Application</h1>
-    <p>This is a basic example of a Java web application using JSP.</p>
+    <p>This is a basic example of a Java web application using JSP. I am done with the help of ALLAH</p>
 </body>
 </html>

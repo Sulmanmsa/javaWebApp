@@ -23,7 +23,7 @@ pipeline{
          stage('Copy') {
             steps {
                 // Copy the index.jsp file to the Tomcat webapps directory
-                bat "copy C:\\Users\\BISMILLAH\\.jenkins\\workspace\\javaWebApp\\index.jsp C:\\Program Files\\Apache Software Foundation\\Tomcat 9.0_Tomcat9_temp\\webapps\\javaWebApp\\index.jsp"
+                bat "xcopy /Y C:\\Users\\BISMILLAH\\.jenkins\\workspace\\javaWebApp\\index.jsp \"C:\\Program Files\\Apache Software Foundation\\Tomcat 9.0_Tomcat9_temp\\webapps\\javaWebApp\""
             }
         }
     }
